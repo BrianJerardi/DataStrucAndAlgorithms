@@ -16,7 +16,8 @@ public class DataStrucAndAlgorithms
     public static void main(String[] args)
     {
         // Array of Class Names to call
-        String[] classNames = {"datastrucandalgorithms.queues.PriorityQueueDriver",
+        String[] classNames = {"datastrucandalgorithms.bags.RandomSentences",
+            "datastrucandalgorithms.queues.PriorityQueueDriver",
             "datastrucandalgorithms.trees.CBTBagDriver", 
             "datastrucandalgorithms.trees.CBTBag2Driver"};
         int userSelection;
