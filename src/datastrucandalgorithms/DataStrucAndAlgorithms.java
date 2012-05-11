@@ -23,6 +23,7 @@ public class DataStrucAndAlgorithms
             "datastrucandalgorithms.linkedlist.LineList",
             "datastrucandalgorithms.linkedlist.LinkedListSplit",
             "datastrucandalgorithms.linkedlist.PolyDriver",
+            "datastrucandalgorithms.sequence.DoubleArraySortedSeqDriver",
             "datastrucandalgorithms.sequence.DoublyLinkedSeqDriver",
             "datastrucandalgorithms.queues.PriorityQueueDriver",
             "datastrucandalgorithms.queues.WordByWordPalindrome",
