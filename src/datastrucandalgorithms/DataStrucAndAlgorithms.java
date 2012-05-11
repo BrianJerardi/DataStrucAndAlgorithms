@@ -20,6 +20,7 @@ public class DataStrucAndAlgorithms
             "datastrucandalgorithms.bags.IntCircularLinkedBagDriver",
             "datastrucandalgorithms.bags.RandomSentences",
             "datastrucandalgorithms.bags.StringKeyedBagDriver",
+            "datastrucandalgorithms.linkedlist.LineList",
             "datastrucandalgorithms.linkedlist.LinkedListSplit",
             "datastrucandalgorithms.linkedlist.PolyDriver",
             "datastrucandalgorithms.sequence.DoublyLinkedSeqDriver",
