@@ -35,6 +35,7 @@ public class DataStrucAndAlgorithms
             {
                 Class<?> cls = Class.forName(classNames[userSelection]);
                 Method meth = cls.getMethod("main", String[].class);
+                displayClassName(classNames[userSelection]);
                 meth.invoke(null, (Object) args);
             }
             catch (Exception ex)
@@ -100,6 +101,24 @@ public class DataStrucAndAlgorithms
         }
         
         return --userSelection;
+    }
+    
+    private static void displayClassName(String className)
+    {
+        // Stores the board for printing the name
+        String boarder = "";
+        
+        // Add *'s to the board to be equal to the name length + 4
+        for (int i = 0; i < className.length() + 4; i++)
+        {
+            boarder += "*";
+        }
+        
+        // Print the name with boarder
+        System.out.println(boarder);
+        System.out.println("* " + className + " *");
+        System.out.println(boarder);
+        System.out.println("");
     }
 
     
