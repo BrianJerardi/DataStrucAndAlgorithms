@@ -28,9 +28,6 @@ import edu.colorado.nodes.Lister;
 *
 * @version
 *   Aug 2, 2005
-*
-* @see ArrayBag
-* @see IntLinkedBag
 ******************************************************************************/
 public class LinkedBag<E> implements Cloneable
 {

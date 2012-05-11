@@ -81,7 +81,7 @@
        * @postcondition
        *    A line will be printed to the screen containing all the integers
        *    between x and y of the list of head
-       * @notes
+       * @note
        *    does not print inclusive (ex. List 1, 2, 3; x = 1; y = 3; Print 2)
        *    first occurrence of y is before first occurrence of x: Print nothing
        *    x == y: Print nothing

@@ -673,7 +673,7 @@
    
    /**
    * Accessor method to get the reference to the head of this list
-   * @parm - none
+   * @param - none
    * @return 
    *    The reference to the head of this list
    */
@@ -696,7 +696,7 @@
    
    /**
    * Accessor method to get the reference to the last accessed node of this list
-   * @parm - none
+   * @param - none
    * @return 
    *    The reference to the last accessed node of this list
    */
@@ -720,7 +720,7 @@
    
    /**
    * Accessor method to get the size of this list
-   * @parm - none
+   * @param - none
    * @return 
    *    the number of nodes in this list
    */
@@ -731,7 +731,7 @@
    
    /**
    * Accessor method to get the reference to the tail of this list
-   * @parm - none
+   * @param - none
    * @return 
    *    the reference to the tail of this list
    */
@@ -754,7 +754,7 @@
    
    /**
    * Clone this linked list
-   * @parm - none
+   * @param - none
    * @return 
    *    A copy of this linked list
    */
@@ -785,7 +785,7 @@
    
    /**
    * Print all the nodes of this list to the screen
-   * @parm - none
+   * @param - none
    */
       public void printList()
       {

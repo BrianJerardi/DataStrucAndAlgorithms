@@ -36,7 +36,7 @@ public class CBTBag<E> implements Cloneable
      * Adds the data to the last spot in the Complete Binary Tree
      * @param data 
      *  The data to add
-     * @postcondtion
+     * @postcondition
      *  data has been added to the last position in this complete tree
      * @throws OutOfMemoryError
      *  Indicates insufficient memory for increasing the capacity
@@ -71,7 +71,7 @@ public class CBTBag<E> implements Cloneable
      * Add the contents of another bag to this bag
      * @param addend 
      *  a bag whose contents will be added to this bag
-     * @preconditon
+     * @precondition
      *  the parameter, addend, is not null
      * @postcondition
      *  The elements from addend have been added to this bag
@@ -96,9 +96,9 @@ public class CBTBag<E> implements Cloneable
      *  The first of two bags
      * @param b2
      *  The second of two bags
-     * @precondtion
+     * @precondition
      *  Neither b1 nor b2 is null
-     * @returns
+     * @return
      *  a new bag that is the union of b1 and b2
      * @throws IllegalArgumentException
      *  Indicates that one of the arguments is null
@@ -176,7 +176,7 @@ public class CBTBag<E> implements Cloneable
     /**
      * Clone this bag
      * @param - none
-     * @returns 
+     * @return 
      *  a copy of this bag
      * @throws OutOfMemoryError
      *  Indicates insufficient memory for increasing the capacity 
@@ -581,10 +581,10 @@ public class CBTBag<E> implements Cloneable
     
     /**
      * Prints the tree in tree form (adjusting for different sized trees)
-     * @parm - none
+     * @param - none
      * @precondition
      *  The tree is not empty
-     * @postconition
+     * @postcondition
      *  The tree has been printed in tree form
      * @exception IllegalStateException
      *  The tree is empty

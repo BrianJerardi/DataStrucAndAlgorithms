@@ -31,8 +31,6 @@ import java.util.NoSuchElementException;
 *
 * @version
 *   Jul 21, 2005
-*
-* @see LinkedQueue
 ******************************************************************************/
 public class ArrayQueue<E> implements Cloneable
 {
@@ -71,7 +69,7 @@ public class ArrayQueue<E> implements Cloneable
    * Initialize an empty queue with a specified initial capacity. Note that the
    * <CODE>add</CODE> method works efficiently (without needing more
    * memory) until this capacity is reached.
-   * @param <CODE>initialCapacity</CODE>
+   * @param initialCapacity
    *   the initial capacity of this queue
    * <dt><b>Precondition:</b><dd>
    *   <CODE>initialCapacity</CODE> is non-negative.
@@ -133,7 +131,7 @@ public class ArrayQueue<E> implements Cloneable
    * would take this queue beyond its current capacity, then the capacity is 
    * increased before adding the new item. The new item may be the null
    * reference.
-   * @param <CODE>item</CODE>
+   * @param item
    *   the item to be pushed onto this queue 
    * <dt><b>Postcondition:</b><dd>
    *   The item has been pushed onto this queue.
@@ -169,7 +167,7 @@ public class ArrayQueue<E> implements Cloneable
    
    /**
    * Change the current capacity of this queue.
-   * @param <CODE>minimumCapacity</CODE>
+   * @param minimumCapacity
    *   the new capacity for this queue
    * <dt><b>Postcondition:</b><dd>
    *   This queue's capacity has been changed to at least <CODE>minimumCapacity</CODE>.

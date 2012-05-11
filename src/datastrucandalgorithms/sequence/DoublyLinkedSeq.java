@@ -133,9 +133,9 @@ public class DoublyLinkedSeq implements Cloneable
    * Move forward, so that the current element is now the next element in
    * this sequence.
    * @param - none
-   * @precondition:
+   * @precondition
    *   isCurrent() returns true. 
-   * @postcondition:
+   * @postcondition
    *   If the current element was already the end element of this sequence 
    *   (with nothing after it), then there is no longer any current element. 
    *   Otherwise, the new element is the element immediately after the 
@@ -165,9 +165,9 @@ public class DoublyLinkedSeq implements Cloneable
    * Move backward, so that the current element is now the previous element in
    * this sequence.
    * @param - none
-   * @precondition:
+   * @precondition
    *   isCurrent() returns true. 
-   * @postcondition:
+   * @postcondition
    *   If the current element was already the first element of this sequence 
    *   (with nothing before it), then there is no longer any current element. 
    *   Otherwise, the new element is the element immediately before the 
@@ -371,7 +371,7 @@ public class DoublyLinkedSeq implements Cloneable
    /**
     * Print each element in the Sequence in order from the head to the tail
     * Also prints the size
-    * @parm - none
+    * @param - none
     * @postcondition
     *   The sequence and it's size were printed to the screen
     */
@@ -390,7 +390,7 @@ public class DoublyLinkedSeq implements Cloneable
    /**
     * Print each element in the Sequence in order from the tail to the head
     * Also prints the size
-    * @parm - none
+    * @param - none
     * @postcondition
     *   The sequence and it's size were printed to the screen
     */

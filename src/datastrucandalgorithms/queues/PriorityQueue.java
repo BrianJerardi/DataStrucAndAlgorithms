@@ -83,7 +83,7 @@ public class PriorityQueue<E> implements Cloneable
      *  The item has been added to this priority queue
      * @throws IllegalArgumentException
      *  Indicates an illegal priority
-     * @thorws IllegalArgumentException
+     * @throws IllegalArgumentException
      *  Indicates insufficient memory for adding a new item to this 
      *  priority queue
      */
@@ -162,7 +162,7 @@ public class PriorityQueue<E> implements Cloneable
     /**
      * Makes a copy of this queue
      * @param - none
-     * @postcondtion
+     * @postcondition
      *  the copy is a reference to a new difference ArrayQueue with all the 
      *  same items
      * @return 

@@ -26,14 +26,7 @@ package edu.colorado.nodes;
 * @version
 *   Jul 17, 2005
 * 
-* @see BooleanNode
-* @see ByteNode
-* @see CharNode
-* @see DoubleNode
-* @see FloatNode
 * @see IntNode
-* @see LongNode
-* @see ShortNode
 ******************************************************************************/
 public class Node<E>
 {
@@ -213,11 +206,10 @@ public class Node<E>
 
    /**
    * Copy part of a list, providing a head and tail reference for the new copy. 
-   * @param start/end
-   *   references to two nodes of a linked list
-   * @param copyHead/copyTail
-   *   the method sets these to refer to the head and tail node of the new
-   *   list that is created
+   * @param start
+   *   references the node of a linked list
+   * @param end
+   *   references the end node of a linked list
    * @precondition
    *   start and end are non-null references to nodes
    *   on the same linked list,

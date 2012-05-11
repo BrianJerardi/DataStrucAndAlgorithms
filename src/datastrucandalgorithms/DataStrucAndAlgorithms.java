@@ -114,6 +114,11 @@ public class DataStrucAndAlgorithms
         return --userSelection;
     }
     
+    /**
+     * Displays the class name with a border
+     * @param className 
+     *  The name of the class to display
+     */
     private static void displayClassName(String className)
     {
         // Stores the board for printing the name

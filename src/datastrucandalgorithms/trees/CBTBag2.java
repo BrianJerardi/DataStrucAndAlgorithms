@@ -126,7 +126,7 @@ public class CBTBag2 implements Cloneable
      * Add the contents of another bag in pre order to this bag
      * @param addend 
      *  a bag whose contents will be added to this bag
-     * @preconditon
+     * @precondition
      *  the parameter, addend, is not null
      * @postcondition
      *  The elements from addend in pre order have been added to this bag
@@ -178,9 +178,9 @@ public class CBTBag2 implements Cloneable
      *  The first of two bags
      * @param b2
      *  The second of two bags
-     * @precondtion
+     * @precondition
      *  Neither b1 nor b2 is null
-     * @returns
+     * @return
      *  a new bag that is the union of b1 and b2
      * @throws IllegalArgumentException
      *  Indicates that one of the arguments is null
@@ -204,7 +204,7 @@ public class CBTBag2 implements Cloneable
      * @param - none
      * @precondition
      *  The tree is not empty
-     * @postcondtion 
+     * @postcondition 
      *  the leftmost data has been returned
      * @return 
      *  The leftmost data from the tree
@@ -226,7 +226,7 @@ public class CBTBag2 implements Cloneable
      * @param - none
      * @precondition
      *  The tree is not empty
-     * @postcondtion 
+     * @postcondition 
      *  the rightmost data has been returned
      * @return 
      *  The rightmost data from the tree
@@ -248,7 +248,7 @@ public class CBTBag2 implements Cloneable
      * @param - none
      * @precondition
      *  The bag is not empty
-     * @postcondtion
+     * @postcondition
      *  The leftmost node has been removed
      * @exception IllegalStateException
      *  The bag is empty
@@ -268,7 +268,7 @@ public class CBTBag2 implements Cloneable
      * @param - none
      * @precondition
      *  The bag is not empty
-     * @postcondtion
+     * @postcondition
      *  The rightmost node has been removed
      * @exception IllegalStateException
      *  The bag is empty
@@ -438,7 +438,7 @@ public class CBTBag2 implements Cloneable
     /**
      * Clone this bag
      * @param - none
-     * @returns 
+     * @return 
      *  a copy of this bag
      * @throws OutOfMemoryError
      *  Indicates insufficient memory for increasing the capacity 

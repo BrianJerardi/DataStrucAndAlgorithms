@@ -26,13 +26,6 @@
 *   March 6, 2002
 *
 * @see Node
-* @see BooleanNode
-* @see ByteNode
-* @see CharNode
-* @see DoubleNode
-* @see FloatNode
-* @see LongNode
-* @see ShortNode
 ******************************************************************************/
    public class IntNode
    {
@@ -212,11 +205,10 @@
    
    /**
    * Copy part of a list, providing a head and tail reference for the new copy. 
-   * @param start/end
-   *   references to two nodes of a linked list
-   * @param copyHead/copyTail
-   *   the method sets these to refer to the head and tail node of the new
-   *   list that is created
+   * @param start
+   *   references the start node of a linked list
+   * @param end
+   *   references tje end node of a linked list
    * @precondition
    *   start and end are non-null references to nodes
    *   on the same linked list,

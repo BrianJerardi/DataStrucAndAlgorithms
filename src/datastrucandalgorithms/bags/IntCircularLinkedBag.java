@@ -314,7 +314,7 @@ public class IntCircularLinkedBag implements Cloneable
    
    /**
     * Prints the list and its size to the screen from head to tail
-    * @parm - none
+    * @param - none
     */
    public void printList()
    {

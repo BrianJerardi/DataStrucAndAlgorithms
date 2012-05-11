@@ -23,15 +23,6 @@ package edu.colorado.nodes;
 *
 * @version
 *   Jun 12, 1998
-*
-* @see BTNode
-* @see BooleanBTNode
-* @see ByteBTNode
-* @see CharBTNode
-* @see DoubleBTNode
-* @see FloatBTNode
-* @see LongBTNode
-* @see ShortBTNode
 ******************************************************************************/
 public class IntBTNode
 {
@@ -47,12 +38,12 @@ public class IntBTNode
    * Initialize a <CODE>IntBTNode</CODE> with a specified initial data and links
    * children. Note that a child link may be the null reference, 
    * which indicates that the new node does not have that child.
-   * @param <CODE>initialData</CODE>
+   * @param initialData
    *   the initial data of this new node
-   * @param <CODE>initialLeft</CODE>
+   * @param initialLeft
    *   a reference to the left child of this new node--this reference may be null
    *   to indicate that there is no node after this new node.
-   * @param <CODE>initialRight</CODE>
+   * @param initialRight
    *   a reference to the right child of this new node--this reference may be null
    *   to indicate that there is no node after this new node.
    * <dt><b>Postcondition:</b><dd>
@@ -209,7 +200,7 @@ public class IntBTNode
    * Uses an inorder traversal to print the data from each node at or below
    * this node of the binary tree, with indentations to indicate the depth
    * of each node.
-   * @param <CODE>depth</CODE>
+   * @param depth
    *   the depth of this node (with 0 for root, 1 for the root's
    *   children, and so on)(
    * <dt><b>Precondition:</b><dd>
@@ -298,7 +289,7 @@ public class IntBTNode
        
    /**
    * Modification method to set the data in this node.   
-   * @param <CODE>newData</CODE>
+   * @param newData
    *   the new data to place in this node
    * <dt><b>Postcondition:</b><dd>
    *   The data of this node has been set to <CODE>newData</CODE>.
@@ -311,7 +302,7 @@ public class IntBTNode
    
    /**
    * Modification method to set the link to the left child of this node.
-   * @param <CODE>newLeft</CODE>
+   * @param newLeft
    *   a reference to the node that should appear as the left child of this node
    *  (or the null reference if there is no left child for this node)
    * <dt><b>Postcondition:</b><dd>
@@ -327,7 +318,7 @@ public class IntBTNode
     
    /**
    * Modification method to set the link to the right child of this node.
-   * @param <CODE>newLeft</CODE>
+   * @param newRight
    *   a reference to the node that should appear as the right child of this node
    *  (or the null reference if there is no right child for this node)
    * <dt><b>Postcondition:</b><dd>
@@ -343,7 +334,7 @@ public class IntBTNode
     
    /**
    * Copy a binary tree.
-   * @param <CODE>source</CODE>
+   * @param source
    *   a reference to the root of a binary tree that will be copied (which may be
    *   an empty tree where <CODE>source</CODE> is null)
    * @return
@@ -369,7 +360,7 @@ public class IntBTNode
 
    /**
    * Count the number of nodes in a binary tree.
-   * @param <CODE>root</CODE>
+   * @param root
    *   a reference to the root of a binary tree (which may be
    *   an empty tree where <CODE>source</CODE> is null)
    * @return

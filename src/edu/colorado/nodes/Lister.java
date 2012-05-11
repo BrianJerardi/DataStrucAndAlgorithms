@@ -40,7 +40,7 @@ public class Lister<E> implements Iterator<E>
 
    /**
    * Initialize a Lister with a specified linked list.
-   * @param <CODE>head</CODE>
+   * @param head
    *   a head reference for a linked list of objects
    * <dt><b>Postcondition:</b><dd>
    *   Subsequent activations of <CODE>next</CODE> will return the elements 

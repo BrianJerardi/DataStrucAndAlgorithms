@@ -267,11 +267,10 @@ public class DoubleNodeDL implements Cloneable
 
    /**
    * Copy part of a list, providing a head and tail reference for the new copy. 
-   * @param start/end
-   *   references to two nodes of a linked list
-   * @param copyHead/copyTail
-   *   the method sets these to refer to the head and tail node of the new
-   *   list that is created
+   * @param start
+   *   references to the start node of a linked list
+   * @param end
+   *   references the end node of a linked list
    * @precondition
    *   start and end are non-null references to nodes
    *   on the same linked list,
@@ -447,7 +446,7 @@ public class DoubleNodeDL implements Cloneable
    
    /**
    * Modification method to set the prev to the node before this node.
-   * @param newLink
+   * @param newPrev
    *   a reference to the node that should appear before this node in the linked
    *   list (or the null reference if there is no node before this node)
    * @postcondition
