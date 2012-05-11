@@ -16,9 +16,8 @@ public class DataStrucAndAlgorithms
     public static void main(String[] args)
     {
         // Array of Class Names to call
-        String[] classNames = {"package1.package2.ClassName", 
-            "package1.package2.ClassName2", 
-            "package1.package2.ClassName3"};
+        String[] classNames = {"datastrucandalgorithms.trees.CBTBagDriver", 
+            "datastrucandalgorithms.trees.CBTBag2Driver"};
         int userSelection;
         
         // Display the Menu and get user input until valid
