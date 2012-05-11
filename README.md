@@ -3,9 +3,17 @@ DataStrucAndAlgorithms
 
 Implementation of some Data Structures and Algorithms.
 
-
 This is some sample code written by Brian Jerardi to demonstrate different 
 data structures and algorithms.
+
+
+Documentation
+-------------
+[Javadoc](http://brianjerardi.github.com/DataStrucAndAlgorithms/ "Javadoc") 
+
+
+Menu Descriptions
+-----------------
 
 1. datastrucandalgorithms.bags.IntCircularLinkedBagDriver - 
     Demonstrates an IntCircularLinkedBag as a collection of int numbers.
