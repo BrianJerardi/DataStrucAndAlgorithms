@@ -16,7 +16,9 @@ public class DataStrucAndAlgorithms
     public static void main(String[] args)
     {
         // Array of Class Names to call
-        String[] classNames = {"datastrucandalgorithms.bags.RandomSentences",
+        String[] classNames = {
+            "datastrucandalgorithms.bags.IntCircularLinkedBagDriver",
+            "datastrucandalgorithms.bags.RandomSentences",
             "datastrucandalgorithms.bags.StringKeyedBagDriver",
             "datastrucandalgorithms.queues.PriorityQueueDriver",
             "datastrucandalgorithms.queues.WordByWordPalindrome",
